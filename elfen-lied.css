@@ -1,0 +1,181 @@
+body {
+    margin:0;
+    padding: 0;
+    background-color: white	;
+}
+
+a {
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+
+}
+
+.container {
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-marca {
+    display: flex;
+    align-items: center;
+}
+
+.infoanime-img {
+    width: 200px;
+    margin-top: 50px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+nav ul, nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #5F9EA0;
+}
+
+nav .active a,
+nav a:hover {
+    background-color: #008080;
+    color: white;
+}
+
+#banner {
+    background-image: url('elfenlied.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.column {
+    flex-direction: column;
+}
+
+.banner-headline {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.banner-headline h1 {
+    color: white;
+    font-size: 35px;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+.banner-headline h2 {
+    color: white;
+    font-size:20px;
+    text-shadow: 2px 2px 2px black;
+    width: 100px;
+    
+}
+
+.banner-headline h2:hover {
+    color: #badc58;
+}
+
+.banner-options {
+    height: 310px;
+    display:flex;
+}
+
+.banner1, .banner2, .banner3 {
+    flex: 1;
+    color: white;
+    padding: 30px;
+    
+}
+
+.banner1 {
+    background-color: #008080;
+}
+
+.banner2 {
+background-color:#0fb9b1;
+}
+
+.banner3 {
+    background-color: #008080;
+}
+
+.banner-title {
+    text-transform: uppercase;
+    font-size: 20px;
+  
+}
+
+.banner-description {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+  
+}
+
+.banner-options-a {
+    display: inline-block;
+    border: 2px solid white;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    color:white;
+}
+
+.banner-options-a:hover {
+    background-color: #badc58;
+}
+
+.animes-title {
+    text-decoration: none;
+    color: white;
+}
+
+.animes-title:hover {
+    transition: 1s;
+    color: #badc58;
+}
+.banner-title-description1 {
+    margin-top: 30px;
+    font-size: 15px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    border-bottom: 2px solid #0fb9b1;
+
+}
+.banner-title-description1:hover {
+    color:#badc58;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.banner-title-description2 {
+    margin-top: 30px;
+    font-size: 20px;    
+}
